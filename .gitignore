@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets: never commit API keys
+.env
+.env.*
+*.key
+
+# Generated data (recreate with: python src/generate_data.py)
+data/*
+!data/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Scratch files
+ping_groq.py
+probe.py

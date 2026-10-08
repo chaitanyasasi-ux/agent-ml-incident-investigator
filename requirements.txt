@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+pytest
+mcp>=1.2,<2
+groq
+
