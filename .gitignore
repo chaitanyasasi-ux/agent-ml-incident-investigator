@@ -25,3 +25,5 @@ Thumbs.db
 # Scratch files
 ping_groq.py
 probe.py
+
+.streamlit/secrets.toml

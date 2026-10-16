@@ -52,3 +52,13 @@ MCP_SERVER_ENV = {"OPENBLAS_NUM_THREADS": "1"}
 SPECIALIST_MAX_ITERATIONS = 6        # LLM steps per specialist (the last one must be its answer)
 DATA_AGENT_TOOLS = ["get_dataset_stats", "check_data_quality", "detect_drift"]
 MODEL_AGENT_TOOLS = ["compare_model_metrics"]
+
+
+# ---------- Day 5: web UI ----------
+UI_MAX_INCIDENT_CHARS = 300          # keep prompts short (also limits abuse on a public demo)
+UI_COOLDOWN_SECONDS = 20             # minimum gap between runs from one browser session
+EXAMPLE_INCIDENTS = [
+    "Churn model recall dropped this week. What happened?",
+    "Did anything change in our input data compared to the baseline?",
+    "Our churn model's accuracy metrics changed. Has the model itself degraded?",
+]
